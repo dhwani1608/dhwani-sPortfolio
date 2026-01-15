@@ -38,13 +38,13 @@ export const Intro = () => {
       <motion.h1
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
+        className="font-heading max-w-3xl px-4 text-3xl font-extrabold sm:text-4xl md:text-5xl"
       >
         Hi I&#39;m Dhwani, a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
           Frontend and AI/ML
         </span>{' '}
-        developer creating modern web apps.
+        developer building intelligent and user-centric solutions.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -52,7 +52,7 @@ export const Intro = () => {
         transition={{
           delay: 0.1,
         }}
-        className="text-muted-foreground max-w-xl"
+        className="text-muted-foreground max-w-xl px-4"
       ></motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -60,16 +60,16 @@ export const Intro = () => {
         transition={{
           delay: 0.1,
         }}
-        className="flex flex-row gap-2"
+        className="flex w-full flex-col gap-2 px-4 sm:w-auto sm:flex-row"
       >
-        <Button asChild size="lg">
+        <Button asChild size="lg" className="w-full sm:w-auto">
           <Link href="#contact">
             Get in touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/michalskolak.pdf" download>
-            Download CV <Icons.download className="ml-2 size-4" />
+          <a href="/dhwani_vyas_resume.pdf" download>
+            Download Resume <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="outline" size="icon" asChild>

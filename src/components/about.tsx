@@ -14,13 +14,13 @@ export const About = () => {
     <motion.section
       ref={ref}
       id="about"
-      className="my-10 flex w-full scroll-mt-28 flex-col items-center md:mb-20"
+      className="my-10 flex w-full scroll-mt-28 flex-col items-center px-4 md:mb-20 md:px-0"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
     >
       <SectionHeading heading="About Me" />
-      <div className="-mt-5 max-w-2xl text-center leading-7">
+      <div className="-mt-5 max-w-2xl px-4 text-center leading-7 sm:px-0">
         <p className="mb-4">
           I&apos;m{' '}
           <span className="font-semibold text-yellow-400">Dhwani Vyas</span>,

@@ -51,12 +51,39 @@ export const projectsData = [
     image: '/images/portfolio.png',
     title: 'Personal Portfolio',
     description:
-      'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'A personal portfolio website to showcase my projects, skills, experience, and certificates, built with Next.js and Tailwind CSS, featuring smooth animations with Framer Motion.',
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Framer-motion',
+      'Tailwind',
+      'React-hook-form',
+      'Resend',
+    ],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/Skolaczk/SocialHub',
-      githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
+      preview:
+        'https://dhwani-s-portfolio-qkht3iw7h-dhwani1608s-projects.vercel.app/',
+      github: 'https://github.com/dhwani1608/dhwani-sPortfolio',
+    },
+  },
+  {
+    image: '/images/breach.png',
+    title: 'Protract: AI-Powered Fraud Prevention System',
+    description:
+      'Project with which won 1st runner up at Breach25 hackathon. Developed an AI-powered fraud detection system that analyzes user behavior to identify and prevent fraudulent activities in real-time, enhancing security for online transactions. (Website is currently down due to hosting issues.)',
+    technologies: [
+      'Next.js',
+      'Nodejs',
+      'FastAPI',
+      'OpenCV',
+      'DeepFace',
+      'Solidity',
+      'Thirdweb',
+      'MongoDB',
+    ],
+    links: {
+      preview: 'https://protract-breach25.vercel.app/',
+      github: 'https://github.com/dhwani1608/Protract-Breach25',
     },
   },
 ] as const;
@@ -179,6 +206,4 @@ export const skillsData = [
   { icon: <Icons.react className="size-12" /> },
   { icon: <Icons.redux className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
-  { icon: <Icons.docker className="size-12" /> },
-  { icon: <Icons.docker className="size-12" /> },
 ] as const;

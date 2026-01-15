@@ -59,5 +59,20 @@
 
   body {
     @apply bg-background text-foreground;
+    cursor: none;
+  }
+
+  a, button {
+    cursor: none !important;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }

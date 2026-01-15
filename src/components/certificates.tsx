@@ -17,7 +17,7 @@ export const Certificates = () => {
     <section
       ref={sectionRef}
       id="certificates"
-      className="my-10 scroll-mt-28 md:mb-20"
+      className="my-10 scroll-mt-28 px-4 md:mb-20 md:px-0"
     >
       <SectionHeading
         heading="My Certificates"
@@ -38,7 +38,7 @@ export const Certificates = () => {
               transition={{ delay: 0.12 }}
               viewport={{ once: true }}
               className={cn(
-                'flex items-start gap-4 rounded border p-3 opacity-0'
+                'flex flex-col gap-3 rounded border p-4 opacity-0 sm:flex-row sm:gap-4 sm:p-3'
               )}
             >
               {image ? (
@@ -46,7 +46,7 @@ export const Certificates = () => {
                   href={link ?? '#'}
                   target="_blank"
                   rel="noreferrer"
-                  className="block h-24 w-36 shrink-0 overflow-hidden rounded"
+                  className="block h-32 w-full overflow-hidden rounded sm:h-24 sm:w-36 sm:shrink-0"
                 >
                   <Image
                     src={image}

@@ -26,7 +26,7 @@ export const Header = () => {
     <motion.header
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      className="sm:bg-background/80 sticky top-5 z-20 my-5 flex items-center gap-2 sm:top-10 sm:my-10 sm:rounded-full sm:border sm:px-2 sm:py-3 sm:backdrop-blur-sm"
+      className="sm:bg-background/80 sticky top-0 z-20 my-2 flex items-center justify-between gap-2 px-4 sm:top-10 sm:my-10 sm:rounded-full sm:border sm:px-2 sm:py-3 sm:backdrop-blur-sm"
     >
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogTrigger asChild>
@@ -38,7 +38,7 @@ export const Header = () => {
             Menu <Icons.chevronDown className="ml-2 size-4" />
           </Button>
         </DialogTrigger>
-        <DialogContent className="text-muted-foreground max-h-screen w-[90%] rounded">
+        <DialogContent className="text-muted-foreground max-h-[80vh] w-[90%] rounded-lg p-4">
           <DialogHeader>
             <DialogTitle className="text-md self-start font-medium">
               Navigation

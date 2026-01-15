@@ -39,7 +39,7 @@ export const Contact = () => {
     <motion.section
       ref={ref}
       id="contact"
-      className="my-10 w-full scroll-mt-28 md:mb-20"
+      className="my-10 w-full scroll-mt-28 px-4 md:mb-20 md:px-0"
       initial={{
         opacity: 0,
       }}
@@ -73,7 +73,7 @@ export const Contact = () => {
       />
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col items-center gap-5"
+        className="flex w-full flex-col items-center gap-5 px-4"
       >
         <div className="w-full max-w-xl">
           <label
