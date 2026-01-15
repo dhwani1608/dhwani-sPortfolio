@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { buttonVariants } from '@/components/button';
 import { projectsData } from '@/lib/data';
 
 type TProject = (typeof projectsData)[number];
@@ -63,6 +64,22 @@ export const Project = ({ project, index }: TProps) => {
             {tech}
           </span>
         ))}
+      </div>
+      <div className="mt-4 flex gap-2">
+        <Link
+          href={links.github}
+          target="_blank"
+          className={`${buttonVariants({ variant: 'outline' })} bg-yellow-400 text-black hover:bg-yellow-500`}
+        >
+          Github
+        </Link>
+        <Link
+          href={links.preview}
+          target="_blank"
+          className={`${buttonVariants({ variant: 'outline' })} bg-yellow-400 text-black hover:bg-yellow-500`}
+        >
+          View
+        </Link>
       </div>
     </motion.div>
   );

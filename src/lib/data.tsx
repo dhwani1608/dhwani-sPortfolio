@@ -14,12 +14,12 @@ export const links = [
     hash: '#about',
   },
   {
-    name: 'Experience',
-    hash: '#experience',
-  },
-  {
     name: 'Projects',
     hash: '#projects',
+  },
+  {
+    name: 'Certificates',
+    hash: '#certificates',
   },
   {
     name: 'Contact',
@@ -29,20 +29,27 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/project-2.webp',
-    title: 'Next-starter',
+    image: '/images/bakeotopia.png',
+    title: 'Bakeotopia - Home of Quality Baking',
     description:
-      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
-    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
+      'Developed a full-stack e-commerce web application for a home bakery business and deployed a secure backend using Supabase with authentication and role-based access control',
+    technologies: [
+      'React',
+      'Tailwind CSS',
+      'Supabase',
+      'Vite',
+      'Typescript',
+      'shadcn-ui',
+      'Vercel',
+    ],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      preview: 'https://bakeotopia-homeofqualitybaking.vercel.app/',
+      github: 'https://github.com/dhwani1608/bakeotopia-a_bakery_app',
     },
   },
   {
-    image: '/images/project-1.webp',
-    title: 'SocialHub',
+    image: '/images/portfolio.png',
+    title: 'Personal Portfolio',
     description:
       'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
     technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
@@ -106,17 +113,72 @@ export const experiencesData = [
   },
 ] as const;
 
+export const certificatesData = [
+  {
+    title: 'IBM 4 weeeks Internship',
+    issuer: 'Edunet Foundation',
+    description:
+      'Comprehensive course covering React fundamentals, hooks, and component-driven development.',
+    period: '2022',
+    link: 'https://drive.google.com/file/d/17Jwim5ci826UDlJmBkvVX2JbB5Ekabv5/view?usp=drive_link',
+    image: '/images/edunet.png',
+  },
+  {
+    title: 'Google Data Analytics Certificate',
+    issuer: 'Coursera',
+    description:
+      'Built responsive UIs and utility-first workflows using Tailwind CSS.',
+    period: '2023',
+    link: 'https://drive.google.com/file/d/1RWKElkn3sCA8KckRDZGkVB04VM3DH4hc/view?usp=drive_link',
+    image: '/images/google.png',
+  },
+  {
+    title: 'Artificial Intelligence Fundamentals',
+    issuer: 'IBM SkillsBuild',
+    description:
+      'Deep dive into TypeScript for large-scale applications and better developer ergonomics.',
+    period: '2024',
+    link: 'https://www.credly.com/go/Zf2y36XA',
+    image: '/images/aiFund.png',
+  },
+  {
+    title: 'Google AI Essentials',
+    issuer: 'Coursera',
+    description:
+      'Deep dive into TypeScript for large-scale applications and better developer ergonomics.',
+    period: '2024',
+    link: 'https://coursera.org/verify/79TV8KY96XUG',
+    image: '/images/googleAI.png',
+  },
+  {
+    title: 'Cisco Networking Basics',
+    issuer: 'Cisco Networking Academy',
+    description:
+      'Deep dive into TypeScript for large-scale applications and better developer ergonomics.',
+    period: '2024',
+    link: 'https://drive.google.com/file/d/1AbZTYwmeJjLpOwWeLzoLxHbDEvHlVRPo/view?usp=sharing',
+    image: '/images/cisco.png',
+  },
+  {
+    title: 'Understanding Incubation and Entrepreneurship',
+    issuer: 'NPTEL',
+    description:
+      'Deep dive into TypeScript for large-scale applications and better developer ergonomics.',
+    period: '2024',
+    link: 'https://drive.google.com/file/d/1BNU6jGp_O5mofofDxkOqKrrhzjg5JD6c/view?usp=sharing',
+    image: '/images/nptel.jpg',
+  },
+] as const;
+
 export const skillsData = [
   { icon: <Icons.html className="size-12" /> },
   { icon: <Icons.css className="size-12" /> },
-  { icon: <Icons.sass className="size-12" /> },
   { icon: <Icons.tailwind className="size-12" /> },
   { icon: <Icons.javascript className="size-12" /> },
   { icon: <Icons.typescript className="size-12" /> },
   { icon: <Icons.react className="size-12" /> },
   { icon: <Icons.redux className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
-  { icon: <Icons.nestjs className="size-12" /> },
-  { icon: <Icons.prisma className="size-12" /> },
+  { icon: <Icons.docker className="size-12" /> },
   { icon: <Icons.docker className="size-12" /> },
 ] as const;

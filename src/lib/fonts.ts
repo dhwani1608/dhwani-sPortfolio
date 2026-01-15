@@ -1,6 +1,6 @@
-import { Inter, JetBrains_Mono, Plus_Jakarta_Sans } from 'next/font/google';
+import { JetBrains_Mono, Kanit, Roboto_Condensed } from 'next/font/google';
 
-const fontSans = Inter({
+const fontSans = Roboto_Condensed({
   subsets: ['latin'],
   variable: '--font-sans',
 });
@@ -10,9 +10,10 @@ const fontMono = JetBrains_Mono({
   variable: '--font-mono',
 });
 
-const fontHeading = Plus_Jakarta_Sans({
+const fontHeading = Kanit({
   subsets: ['latin'],
   variable: '--font-heading',
+  weight: ['400', '700'],
 });
 
 export const fonts = [

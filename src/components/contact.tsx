@@ -63,8 +63,8 @@ export const Contact = () => {
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
               asChild
             >
-              <Link href="mailto:skolakmichal1@gmail.com">
-                skolakmichal1@gmail.com
+              <Link href="mailto:dhwani.vyas05@gmail.com">
+                dhwani.vyas05@gmail.com
               </Link>
             </Button>{' '}
             or through this form.
@@ -88,7 +88,7 @@ export const Contact = () => {
           <input
             type="email"
             id="email"
-            placeholder="hello@gmail.com"
+            placeholder="dhwani.vyas05@gmail.com"
             {...register('email')}
             className={cn(
               'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
@@ -113,7 +113,7 @@ export const Contact = () => {
           </label>
           <textarea
             id="message"
-            placeholder="Hello! What's up?"
+            placeholder="Hello! Let's connect..."
             {...register('message')}
             className={cn(
               'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-60 w-full resize-none rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',

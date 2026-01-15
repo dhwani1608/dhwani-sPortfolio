@@ -1,5 +1,6 @@
 'use client';
 
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
 
 import { SectionHeading } from '@/components/section-heading';
@@ -21,16 +22,37 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I&apos;m Michał Skolak, I&apos;m a front-end developer from Poland.
-          I&apos;ve been learning programming for over 3 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I&apos;m always
-          looking to learn new technologies.
+          I&apos;m{' '}
+          <span className="font-semibold text-yellow-400">Dhwani Vyas</span>,
+          I&apos;m a{' '}
+          <span className="font-semibold text-yellow-400">Full-Stack</span> and{' '}
+          <span className="font-semibold text-yellow-400">AI/ML</span>{' '}
+          developer. I&apos;ts been above 3 years since I wrote my first
+          &quot;Hello World&quot;. It&apos;s fun to be a programmer because
+          it&apos;s not the same all the time. I{' '}
+          <span className="font-semibold text-yellow-400">love learning</span>{' '}
+          and{' '}
+          <span className="font-semibold text-yellow-400">getting adapted</span>{' '}
+          to new tech stack and for me{' '}
+          <span className="font-semibold text-yellow-400">problem solving</span>{' '}
+          is something I was born to do. Other than that in my free time u will
+          find me reading books(my fav one being &quot;Shoe dog&quot; by Phil
+          Knight, really a great book), cooking(trying and building some new
+          flavour) and walking in nature(solus with music and trees around is
+          just as perfect as it sounds). And yes, I am proud and love my choice
+          of being a
+          <span className="font-semibold text-yellow-400">
+            {
+              useTypewriter({
+                words: [' programmer.', ' coder.', ' solver.'],
+                loop: true,
+                typeSpeed: 70,
+                deleteSpeed: 50,
+                delaySpeed: 1200,
+              })[0]
+            }
+            <Cursor cursorStyle="|" />
+          </span>
         </p>
         <p>
           I&apos;m open to Job opportunities where I can contribute, learn and

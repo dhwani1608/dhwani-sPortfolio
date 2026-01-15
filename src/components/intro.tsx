@@ -40,9 +40,9 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Hi I&#39;m a{' '}
+        Hi I&#39;m Dhwani, a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Frontend
+          Frontend and AI/ML
         </span>{' '}
         developer creating modern web apps.
       </motion.h1>
@@ -53,10 +53,7 @@ export const Intro = () => {
           delay: 0.1,
         }}
         className="text-muted-foreground max-w-xl"
-      >
-        A frontend developer based in the Poland. I&#39;m passionate about
-        building modern web applications using Next.js, React, and Tailwind CSS.
-      </motion.p>
+      ></motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -77,7 +74,7 @@ export const Intro = () => {
         </Button>
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://linkedin.com/in/dhwani-vyas-b97770284/"
             aria-label="Linkedin"
             target="_blank"
           >
@@ -86,7 +83,7 @@ export const Intro = () => {
         </Button>
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://github.com/Skolaczk"
+            href="https://github.com/dhwani1608"
             aria-label="Github"
             target="_blank"
           >
