@@ -24,7 +24,7 @@ export const Certificates = () => {
         content="Professional certificates and courses I have completed."
       />
       <div className="relative max-w-screen-md">
-        {certificatesData.map(({ title, description, issuer, link, image }) => (
+        {certificatesData.map(({ title, issuer, link, image }) => (
           <div
             key={title}
             className="not-last:pb-12 relative pl-0 [&:not(:last-child)]:pb-10"
@@ -67,10 +67,6 @@ export const Certificates = () => {
                 </div>
 
                 <h3 className="mt-1 text-sm font-medium">{issuer}</h3>
-
-                <p className="text-muted-foreground mt-2 text-sm">
-                  {description}
-                </p>
 
                 {link ? (
                   <a

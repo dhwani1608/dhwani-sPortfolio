@@ -144,8 +144,6 @@ export const certificatesData = [
   {
     title: 'IBM 4 weeeks Internship',
     issuer: 'Edunet Foundation',
-    description:
-      'Comprehensive course covering React fundamentals, hooks, and component-driven development.',
     period: '2022',
     link: 'https://drive.google.com/file/d/17Jwim5ci826UDlJmBkvVX2JbB5Ekabv5/view?usp=drive_link',
     image: '/images/edunet.png',
@@ -153,8 +151,6 @@ export const certificatesData = [
   {
     title: 'Google Data Analytics Certificate',
     issuer: 'Coursera',
-    description:
-      'Built responsive UIs and utility-first workflows using Tailwind CSS.',
     period: '2023',
     link: 'https://drive.google.com/file/d/1RWKElkn3sCA8KckRDZGkVB04VM3DH4hc/view?usp=drive_link',
     image: '/images/google.png',
@@ -162,8 +158,6 @@ export const certificatesData = [
   {
     title: 'Artificial Intelligence Fundamentals',
     issuer: 'IBM SkillsBuild',
-    description:
-      'Deep dive into TypeScript for large-scale applications and better developer ergonomics.',
     period: '2024',
     link: 'https://www.credly.com/go/Zf2y36XA',
     image: '/images/aiFund.png',
@@ -171,8 +165,6 @@ export const certificatesData = [
   {
     title: 'Google AI Essentials',
     issuer: 'Coursera',
-    description:
-      'Deep dive into TypeScript for large-scale applications and better developer ergonomics.',
     period: '2024',
     link: 'https://coursera.org/verify/79TV8KY96XUG',
     image: '/images/googleAI.png',
@@ -180,8 +172,6 @@ export const certificatesData = [
   {
     title: 'Cisco Networking Basics',
     issuer: 'Cisco Networking Academy',
-    description:
-      'Deep dive into TypeScript for large-scale applications and better developer ergonomics.',
     period: '2024',
     link: 'https://drive.google.com/file/d/1AbZTYwmeJjLpOwWeLzoLxHbDEvHlVRPo/view?usp=sharing',
     image: '/images/cisco.png',
@@ -189,8 +179,6 @@ export const certificatesData = [
   {
     title: 'Understanding Incubation and Entrepreneurship',
     issuer: 'NPTEL',
-    description:
-      'Deep dive into TypeScript for large-scale applications and better developer ergonomics.',
     period: '2024',
     link: 'https://drive.google.com/file/d/1BNU6jGp_O5mofofDxkOqKrrhzjg5JD6c/view?usp=sharing',
     image: '/images/nptel.jpg',
@@ -199,11 +187,11 @@ export const certificatesData = [
 
 export const skillsData = [
   { icon: <Icons.html className="size-12" /> },
-  { icon: <Icons.css className="size-12" /> },
   { icon: <Icons.tailwind className="size-12" /> },
   { icon: <Icons.javascript className="size-12" /> },
   { icon: <Icons.typescript className="size-12" /> },
   { icon: <Icons.react className="size-12" /> },
-  { icon: <Icons.redux className="size-12" /> },
+  { icon: <Icons.github className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
+  { icon: <Icons.css className="size-12" /> },
 ] as const;

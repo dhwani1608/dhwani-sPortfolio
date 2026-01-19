@@ -34,7 +34,7 @@ export const Skills = () => {
             custom={index}
             className="shrink-0 sm:shrink"
           >
-            <div className="scale-75 sm:scale-100">{icon}</div>
+            <div className="text-foreground scale-75 sm:scale-100">{icon}</div>
           </motion.div>
         ))}
       </div>
