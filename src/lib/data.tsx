@@ -48,6 +48,24 @@ export const projectsData = [
     },
   },
   {
+    image: '/images/paperSimplify.png',
+    title: 'PaperSimplify-Understanding Research Papers Made Easy',
+    description:
+      'PaperSimplify is a lightweight web application that helps students and researchers understand academic papers faster by converting dense research PDFs into clear, section-wise simplified explanations using AI.',
+    technologies: [
+      'Next.js',
+      'Tailwind CSS',
+      'TypeScript',
+      'OpenAI API',
+      'PDF.co API',
+      'Vercel',
+    ],
+    links: {
+      preview: 'https://paper-simplify.vercel.app/',
+      github: 'https://github.com/dhwani1608/paperSimplify',
+    },
+  },
+  {
     image: '/images/portfolio.png',
     title: 'Personal Portfolio',
     description:

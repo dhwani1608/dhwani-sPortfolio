@@ -4,20 +4,6 @@ import { motion } from 'framer-motion';
 
 import { skillsData } from '@/lib/data';
 
-const fadeInAnimationVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.05 * index,
-    },
-  }),
-};
-
 export const Skills = () => {
   return (
     <div className="mt-10 w-full overflow-x-auto px-4 sm:px-0 md:mt-14">
@@ -25,7 +11,6 @@ export const Skills = () => {
         {skillsData.map(({ icon }, index) => (
           <motion.div
             key={index}
-            variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
             viewport={{

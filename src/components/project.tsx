@@ -40,7 +40,7 @@ export const Project = ({ project, index }: TProps) => {
         once: true,
       }}
       custom={index}
-      className="flex flex-col rounded border p-4 md:w-1/2 md:p-5"
+      className="flex size-full flex-col rounded border p-4 md:p-5"
     >
       <Link
         href={links.github}

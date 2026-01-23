@@ -72,6 +72,15 @@ export const Intro = () => {
             Download Resume <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.0,
+        }}
+        className="flex w-full justify-center gap-2 px-4 sm:w-auto"
+      >
         <Button variant="outline" size="icon" asChild>
           <Link
             href="https://linkedin.com/in/dhwani-vyas-b97770284/"
