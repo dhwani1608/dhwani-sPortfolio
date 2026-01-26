@@ -49,6 +49,25 @@ export const projectsData = [
       github: 'https://github.com/dhwani1608/plantsense-backend',
     },
   },
+  {
+    image: '/images/bakeotopia.png',
+    title: 'Bakeotopia',
+    description:
+      'Developed a full-stack web application for a home bakery business and deployed a secure backend using Supabase with authentication and role-based access control.',
+    technologies: [
+      'React',
+      'Tailwind CSS',
+      'Supabase',
+      'Vite',
+      'Typescript',
+      'shadcn-ui',
+      'Vercel',
+    ],
+    links: {
+      preview: 'https://bakeotopia-homeofqualitybaking.vercel.app/',
+      github: 'https://github.com/dhwani1608/bakeotopia-a_bakery_app',
+    },
+  },
 
   {
     image: '/images/paperSimplify.png',
