@@ -29,24 +29,30 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/bakeotopia.png',
-    title: 'Bakeotopia - Home of Quality Baking',
+    image: '/images/plantSense.png',
+    title: 'PlantSense AI',
     description:
-      'Developed a full-stack e-commerce web application for a home bakery business and deployed a secure backend using Supabase with authentication and role-based access control',
+      'Built an end-to-end AI-powered plant identification platform that classifies plant species from uploaded images using a deep learning model and provides structured plant care recommendations through a production-ready API.',
     technologies: [
+      'PyTorch',
+      'EfficientNet-B0',
+      'FastAPI',
       'React',
       'Tailwind CSS',
-      'Supabase',
       'Vite',
-      'Typescript',
-      'shadcn-ui',
+      'JavaScript',
+      'Render',
       'Vercel',
     ],
     links: {
-      preview: 'https://bakeotopia-homeofqualitybaking.vercel.app/',
-      github: 'https://github.com/dhwani1608/bakeotopia-a_bakery_app',
+      preview: 'https://plant-sense-frontend.vercel.app/',
+      github: {
+        backend: 'https://github.com/dhwani1608/plantsense-backend',
+        frontend: 'https://github.com/dhwani1608/plantsense-frontend',
+      },
     },
   },
+
   {
     image: '/images/paperSimplify.png',
     title: 'PaperSimplify-Understanding Research Papers Made Easy',
