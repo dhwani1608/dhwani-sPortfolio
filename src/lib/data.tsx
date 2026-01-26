@@ -46,10 +46,7 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://plant-sense-frontend.vercel.app/',
-      github: {
-        backend: 'https://github.com/dhwani1608/plantsense-backend',
-        frontend: 'https://github.com/dhwani1608/plantsense-frontend',
-      },
+      github: 'https://github.com/dhwani1608/plantsense-backend',
     },
   },
 
