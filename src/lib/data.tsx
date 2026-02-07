@@ -29,6 +29,29 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/stockPred.png',
+    title: 'StockPred',
+    description:
+      'Developed an end-to-end ML-powered stock prediction platform that generates directional trading signals using historical and live market data. The system leverages feature engineering and an XGBoost-based classification model, exposed via a production-ready FastAPI backend and consumed through a modern web interface.',
+    technologies: [
+      'Python',
+      'XGBoost',
+      'FastAPI',
+      'PostgreSQL',
+      'SQLAlchemy',
+      'Next.js',
+      'JavaScript',
+      'Yahoo Finance API',
+      'Render',
+      'Vercel',
+    ],
+    links: {
+      preview: 'https://stockpred-frontend-phi.vercel.app/',
+      github: 'https://github.com/dhwani1608/stockpred_backend',
+    },
+  },
+
+  {
     image: '/images/plantSense.png',
     title: 'PlantSense AI',
     description:
