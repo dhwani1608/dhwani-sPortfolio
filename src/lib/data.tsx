@@ -29,6 +29,30 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/realign.png',
+    title: 'Realign AI',
+    description:
+      'Built an AI-driven construction planning platform that retrieves optimal building layouts from a dataset of 571+ plans using ResNet18 embeddings. Implemented JWT-based RBAC authentication, a FastAPI backend with PostgreSQL, and an interactive Next.js frontend for visualizing and generating layout recommendations.',
+    technologies: [
+      'Next.js',
+      'React',
+      'FastAPI',
+      'Python',
+      'PostgreSQL',
+      'PyTorch',
+      'ResNet18',
+      'VAE',
+      'JWT Authentication',
+      'Tailwind CSS',
+      'Vercel',
+    ],
+    links: {
+      preview: 'https://realigncreatech.vercel.app/',
+      github: 'https://github.com/dhwani1608/ReAlign_backend',
+    },
+  },
+
+  {
     image: '/images/stockPred.png',
     title: 'StockPred',
     description:
