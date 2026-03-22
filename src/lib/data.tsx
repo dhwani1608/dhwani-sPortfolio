@@ -29,6 +29,27 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/resumeAnalyzer.png',
+    title: 'AI Resume Analyzer & Job Portal',
+    description:
+      'Developed a full-stack job portal with AI-based resume analysis to match candidates with relevant job roles. Implemented NLP-based resume scoring to evaluate resumes based on skills, keywords, and job descriptions, along with ML-driven classification and job recommendations. Built secure Django-based authentication with role-based access for recruiters and applicants, and features like job posting, application tracking, and resume parsing to streamline the hiring process.',
+    technologies: [
+      'Django',
+      'Python',
+      'NLP',
+      'Machine Learning',
+      'PostgreSQL',
+      'HTML',
+      'CSS',
+      'JavaScript',
+    ],
+    links: {
+      preview: 'https://web-production-185eb.up.railway.app/',
+      github: 'https://github.com/dhwani1608/JobPortal',
+    },
+  },
+
+  {
     image: '/images/realign.png',
     title: 'Realign AI',
     description:
