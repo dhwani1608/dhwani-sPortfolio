@@ -29,6 +29,65 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/emailauto.png',
+    title: 'AI Email Automation System',
+    description:
+      'Developed a backend automation system integrating Gmail API for real-time email ingestion, with LangGraph stateful agentic workflows for multi-class intent classification and dynamic multi-step task orchestration. Implemented a Retrieval-Augmented Generation (RAG) pipeline using ChromaDB as a vector store for context-aware, semantically grounded response generation across high-volume email threads. Deployed scalable REST APIs with FastAPI and LangServe for efficient, production-ready serving of the automation pipeline.',
+    technologies: [
+      'Python',
+      'LangGraph',
+      'LangChain',
+      'FastAPI',
+      'ChromaDB',
+      'RAG',
+      'Gmail API',
+      'LangServe',
+    ],
+    links: {
+      github: 'https://github.com/dhwani1608/Email_Automation',
+    },
+  },
+
+  {
+    image: '/images/cicd.png',
+    title: 'CI/CD Pipeline to Kubernetes with Helm',
+    description:
+      'Architected an end-to-end CI/CD pipeline using Jenkins multi-stage pipelines to automate build, testing, containerization, and deployment workflows across multiple environments, eliminating manual deployment overhead. Containerized microservices using Docker and orchestrated deployments on Kubernetes with Helm charts, along with shell scripts for automated image publishing, chart packaging, and versioned releases. Integrated health checks and smoke testing stages within the pipeline to ensure deployment reliability and reduce post-release defects, while managing environment-specific configurations using Helm values for staging and production.',
+    technologies: [
+      'Jenkins',
+      'Docker',
+      'Kubernetes',
+      'Helm',
+      'Shell Scripting',
+      'DevOps',
+    ],
+    links: {
+      github: 'https://github.com/dhwani1608/CI-CD-Pipeline', // add repo link
+    },
+  },
+
+  {
+    image: '/images/payzen.jpeg',
+    title: 'Full-Stack Fintech Platform',
+    description:
+      'Built a full-stack fintech platform featuring wallet provisioning, group ledgers, equal-split expense tracking, and real-time settlement suggestions backed by a normalized PostgreSQL relational schema spanning 4+ entity types. Integrated Stripe Checkout API for secure wallet top-ups and peer-to-peer settlement execution, alongside multi-provider authentication (email/password + Google OAuth) with Auth.js and secure session management. Designed a modular TypeScript codebase with Prisma ORM for type-safe relational data access, deployed on Vercel with optimized server-side rendering via Next.js App Router for fast, SEO-friendly page loads.',
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Prisma',
+      'PostgreSQL',
+      'Stripe API',
+      'Auth.js',
+      'Google OAuth',
+      'Vercel',
+    ],
+    links: {
+      preview: 'https://pay-zen-two.vercel.app/',
+      github: 'https://github.com/HACKED-07/pay-zen',
+    },
+  },
+
+  {
     image: '/images/resumeAnalyzer.png',
     title: 'AI Resume Analyzer & Job Portal',
     description:
