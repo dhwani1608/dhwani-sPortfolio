@@ -44,6 +44,7 @@ export const projectsData = [
       'LangServe',
     ],
     links: {
+      preview: '',
       github: 'https://github.com/dhwani1608/Email_Automation',
     },
   },
@@ -62,6 +63,7 @@ export const projectsData = [
       'DevOps',
     ],
     links: {
+      preview: '',
       github: 'https://github.com/dhwani1608/CI-CD-Pipeline', // add repo link
     },
   },
