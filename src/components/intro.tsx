@@ -42,7 +42,7 @@ export const Intro = () => {
       >
         Hi I&#39;m Dhwani, a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Frontend and AI/ML
+          Backend and AI/ML
         </span>{' '}
         developer building intelligent and user-centric solutions.
       </motion.h1>

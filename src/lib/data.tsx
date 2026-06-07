@@ -29,6 +29,31 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/talentos.png',
+    title: 'TalentOS — Recruiter Intelligence Dashboard',
+    description:
+      'Built an AI-powered recruiter intelligence platform that transforms unstructured resumes into actionable hiring insights using a multi-agent architecture. Automated resume parsing, work-history summarization, skill taxonomy normalization, and candidate profiling using LiteLLM and spaCy. Implemented semantic candidate-to-job matching with ChromaDB vector search and LLM-driven gap analysis, enabling recruiters to identify top candidates beyond keyword-based filtering. Developed a modern analytics dashboard with Next.js, Tailwind CSS, and Recharts, backed by FastAPI services and Supabase PostgreSQL for scalable talent intelligence workflows.',
+    technologies: [
+      'Python',
+      'FastAPI',
+      'LiteLLM',
+      'spaCy',
+      'ChromaDB',
+      'RAG',
+      'Next.js',
+      'Tailwind CSS',
+      'Supabase',
+      'PostgreSQL',
+      'Docker',
+      'AI Agents',
+    ],
+    links: {
+      preview: '',
+      github: 'https://github.com/dhwani1608/ResumeAnalyzer',
+    },
+  },
+
+  {
     image: '/images/emailauto.png',
     title: 'AI Email Automation System',
     description:
