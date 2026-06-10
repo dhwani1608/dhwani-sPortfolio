@@ -1,8 +1,4 @@
-import Link from 'next/link';
-
-import { buttonVariants } from '@/components/button';
-import { Icons } from '@/components/icons';
-import { cn } from '@/lib/utils';
+﻿import { Icons } from '@/components/icons';
 
 export const links = [
   {
@@ -16,6 +12,10 @@ export const links = [
   {
     name: 'Projects',
     hash: '#projects',
+  },
+  {
+    name: 'Experience',
+    hash: '#experience',
   },
   {
     name: 'Certificates',
@@ -284,56 +284,51 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
-    description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
+    title: 'Backend Developer Intern',
+    company: 'Seventh Ray LegalTech',
+    location: 'Remote',
+    period: 'Jan 2026 - Apr 2026',
+    description: [
+      'Developed and deployed a Java Spring Boot backend for an enterprise B2B SaaS Contract Lifecycle Management platform, following SDLC best practices.',
+      'Designed a PostgreSQL relational schema across 90+ tables for contracts, parties, templates, approvals, compliance, and audit logs with Flyway migrations.',
+      'Built RESTful APIs for 7+ core modules with CRUD coverage, JWT-based stateless authentication, Spring Security RBAC, and workspace-level data isolation.',
+      'Deployed on AWS EC2, configured AWS S3 for secure document management, and authored architecture, API, database, and Agile sprint documentation.',
+    ],
+    technologies: [
+      'Java',
+      'Spring Boot',
+      'Spring Security',
+      'PostgreSQL',
+      'Flyway',
+      'JWT',
+      'RBAC',
+      'AWS EC2',
+      'AWS S3',
+      'REST APIs',
+    ],
   },
   {
-    title: 'Frontend developer & UI designer',
-    company: 'Freelancing, remote',
-    description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - 2024',
-    technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
-  },
-  {
-    title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
-    description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
-    period: '2024',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
-  },
-  {
-    title: 'Frontend developer & UI designer',
-    company: 'GeoScan, remote',
-    description: (
-      <>
-        At GeoScan, I collaborate with frontend, backend, and GIS specialists to
-        build{' '}
-        <Link
-          className={cn(
-            buttonVariants({ variant: 'link' }),
-            'm-0 h-fit p-0 text-base'
-          )}
-          href="https://geoscan-app.com"
-          target="_blank"
-        >
-          geoscan-app.com
-        </Link>{' '}
-        — a platform for generating real estate reports. I’m responsible for
-        developing and maintaining the frontend, as well as designing UI/UX to
-        ensure a clear and intuitive user experience.
-      </>
-    ),
-    period: '2024 - present',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Leaflet'],
+    title: 'AI Engineering Intern',
+    company: 'Textify Analytics',
+    location: 'Remote',
+    period: 'June 2025 - Aug 2025',
+    description: [
+      'Built and maintained ETL data pipelines on Microsoft Azure Data Factory and Blob Storage for large-scale document and chart datasets.',
+      'Supported a multimodal AI search engine processing 1M+ documents monthly with scalable cloud-native ingestion and automation workflows.',
+      'Implemented data extraction and retrieval workflows for structured and unstructured sources including PDFs, images, and charts using Python and REST APIs.',
+      'Optimized pipeline throughput for downstream AI retrieval across a 3M+ chart dataset powering natural language search.',
+    ],
+    technologies: [
+      'Python',
+      'Azure Data Factory',
+      'Azure Blob Storage',
+      'ETL',
+      'REST APIs',
+      'Data Pipelines',
+      'AI Search',
+    ],
   },
 ] as const;
-
 export const certificatesData = [
   {
     title: 'IBM 4 weeeks Internship',
