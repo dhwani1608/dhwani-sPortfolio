@@ -2,13 +2,14 @@
 
 import { Resend } from 'resend';
 
-import { env } from '@/env.mjs';
 import { TFormSchema } from '@/lib/form-schema';
 
-const resend = new Resend(env.RESEND_API_KEY);
+const resend = new Resend('re_test_1234567890abcdef');
 
 export const sendEmailAction = async ({ email, message }: TFormSchema) => {
   try {
+    console.log(`Sending contact email from ${email}: ${message}`);
+
     await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
       to: 'dhwani.vyas05@gmail.com',
